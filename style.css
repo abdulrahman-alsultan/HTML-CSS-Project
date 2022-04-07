@@ -1,0 +1,67 @@
+
+body {
+    background-image: url(/background-image.png); 
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+#profile {
+    display: inline-flex;
+    width: 90%;
+}
+
+
+#info{
+    float: right;
+    margin-left: 100px;
+    position: sticky;
+    top: 0;
+}
+
+#dots{
+    width: 90%;
+    font-size: 60px;
+}
+
+table{
+    width: 90%;
+}
+
+table, td{
+    border: 2px double gray;
+    text-align: center;
+    table-layout: fixed;
+    
+}
+
+
+#left-data{
+    text-align: start;
+}
+
+#button{
+    width: 90%;
+    text-align: center;
+    padding-top: 5px;
+}
+
+button, #submit{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+form{
+    text-align: center;
+}
+
+#input{
+    width: 400px;
+    margin: 10px;
+}
